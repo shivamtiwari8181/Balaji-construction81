@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Balaji Construction & Properties — property buying, selling, renting and construction services across India.">
+  <meta name="theme-color" content="#0a1020">
+  <title>Balaji Construction & Properties | Your Dream, Our Priority</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#0b1220;--navy2:#111d32;--blue:#245bdb;--gold:#e8bd61;--ink:#152033;--muted:#687386;--line:#e7ebf1;--soft:#f5f7fb;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'DM Sans',Arial,sans-serif;color:var(--ink);background:#fff}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.container{width:min(1160px,92%);margin:auto}
+    .topbar{background:#070b13;color:#dbe3f1;font-size:12px;padding:10px 0}.topinner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.topbar a{color:var(--gold)}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid #edf0f4}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;min-width:210px}.brand img{width:62px;height:62px;object-fit:contain;background:#050505;border-radius:10px}.brandtext{font-weight:800;line-height:1.1;letter-spacing:.5px}.brandtext strong{display:block;color:#101827;font-size:16px}.brandtext span{display:block;color:#b5872e;font-size:10px;letter-spacing:2px;margin-top:5px}.navlinks{display:flex;align-items:center;gap:24px;font-size:13px;font-weight:700;color:#3c4657}.navlinks a:hover{color:var(--blue)}.navcta{padding:12px 17px;background:var(--navy);color:#fff!important;border-radius:7px}.menu{display:none;border:0;background:var(--navy);color:#fff;padding:10px 13px;border-radius:7px}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(110deg,rgba(6,12,24,.96) 0%,rgba(8,18,36,.88) 48%,rgba(9,22,42,.25) 100%),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=85') center/cover;color:#fff;min-height:600px;display:flex;align-items:center}.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 82% 25%,rgba(232,189,97,.2),transparent 30%);pointer-events:none}.hero-content{position:relative;z-index:1;max-width:700px;padding:86px 0}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--gold);font-size:11px;letter-spacing:2.4px;text-transform:uppercase;font-weight:800}.eyebrow:before{content:"";height:1px;width:28px;background:var(--gold)}h1,h2,h3{margin-top:0}h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(42px,6vw,72px);line-height:1.06;letter-spacing:-1.5px;margin:22px 0}.hero h1 em{font-style:normal;color:var(--gold)}.hero p{max-width:560px;color:#d4dbe7;font-size:16px;line-height:1.8}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 20px;border-radius:7px;font-size:13px;font-weight:800;border:1px solid transparent;cursor:pointer;transition:.2s}.btn-gold{background:var(--gold);color:#171717}.btn-gold:hover{background:#f3d48e;transform:translateY(-2px)}.btn-outline{border-color:#7e899a;color:#fff}.btn-outline:hover{background:#fff;color:var(--navy)}.trustrow{display:flex;gap:28px;flex-wrap:wrap;margin-top:42px;color:#d9e0eb;font-size:12px}.trustrow b{color:#fff;display:block;font-size:19px;margin-bottom:4px}
+    .searchwrap{position:relative;margin-top:-36px;z-index:5}.searchbox{background:#fff;padding:22px;border-radius:12px;box-shadow:0 18px 55px #12203b1c;border:1px solid #edf0f4}.searchtitle{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:14px}.searchgrid{display:grid;grid-template-columns:1.1fr 1fr 1fr 1fr auto;gap:10px}.field label{display:block;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#7a8493;font-weight:800;margin:0 0 7px}.field input,.field select,.field textarea{width:100%;border:1px solid #e2e7ef;background:#fbfcfe;border-radius:6px;padding:13px;color:#202a3b;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--blue)}.searchbtn{align-self:end;background:var(--blue);color:#fff;border:0;border-radius:6px;padding:14px 18px;font-weight:800;cursor:pointer}
+    section{padding:88px 0}.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:32px}.sectionhead h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(30px,4vw,43px);margin:12px 0 0;color:#101827}.sectionhead p{max-width:470px;color:var(--muted);line-height:1.7;margin:0;font-size:14px}.textlink{color:var(--blue);font-size:13px;font-weight:800;white-space:nowrap}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.property{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;transition:.25s}.property:hover{transform:translateY(-5px);box-shadow:0 18px 40px #0d1a3014}.propimg{height:220px;position:relative;background:#e9edf4;overflow:hidden}.propimg img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}.property:hover .propimg img{transform:scale(1.04)}.badge{position:absolute;top:14px;left:14px;background:#fff;color:#162033;padding:7px 10px;border-radius:4px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.7px}.badge.gold{background:var(--gold)}.price{position:absolute;right:14px;bottom:14px;background:#0b1220e8;color:#fff;padding:9px 11px;border-radius:5px;font-weight:800;font-size:14px}.propbody{padding:19px}.propbody h3{font-size:17px;margin-bottom:7px}.location{color:#768195;font-size:12px;margin-bottom:17px}.propmeta{display:flex;justify-content:space-between;gap:10px;padding-top:14px;border-top:1px solid #edf0f4;color:#647084;font-size:11px}.propmeta b{color:#1c2a40}
+    .services{background:var(--soft)}.servicegrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.service{padding:25px 22px;background:#fff;border:1px solid #e9edf4;border-radius:10px;min-height:205px}.serviceicon{height:44px;width:44px;display:grid;place-items:center;background:#edf3ff;color:var(--blue);border-radius:10px;font-size:21px;margin-bottom:22px}.service h3{font-size:16px;margin-bottom:9px}.service p{font-size:12px;color:var(--muted);line-height:1.7;margin:0}
+    .featureband{background:var(--navy);color:#fff;overflow:hidden}.featuregrid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.featurephoto{min-height:430px;border-radius:12px;background:url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85') center/cover;position:relative}.featurephoto:after{content:"";position:absolute;inset:20px;border:1px solid #e8bd6180;border-radius:8px}.featureband h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(32px,4vw,46px);line-height:1.2}.featureband p{color:#b9c3d3;line-height:1.9;font-size:14px}.checklist{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:25px 0}.check{font-size:12px;color:#e7ebf3}.check:before{content:"✓";color:var(--gold);font-weight:900;margin-right:9px}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.step{padding:25px;border:1px solid var(--line);border-radius:10px}.stepnum{font-family:'Playfair Display',Georgia,serif;font-size:38px;color:#d2a94f;margin-bottom:18px}.step h3{font-size:16px}.step p{font-size:13px;line-height:1.7;color:var(--muted);margin-bottom:0}
+    .cta{padding:0 0 88px}.ctabox{background:linear-gradient(115deg,#172b4c,#0a1221);padding:45px;border-radius:14px;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:25px}.ctabox h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(27px,3.5vw,38px);margin-bottom:8px}.ctabox p{color:#c2cada;font-size:13px;margin:0}
+    .contactgrid{display:grid;grid-template-columns:.85fr 1.15fr;gap:36px}.contactinfo{background:var(--navy);color:#fff;padding:30px;border-radius:12px}.contactinfo h3{font-family:'Playfair Display',Georgia,serif;font-size:27px}.contactinfo p{color:#c1cad8;line-height:1.7;font-size:13px}.contactline{border-top:1px solid #ffffff20;padding:16px 0;font-size:13px}.contactline small{display:block;color:#aab5c7;margin-bottom:5px}.contactline a{color:#f0ca77;overflow-wrap:anywhere}.contactform{display:grid;grid-template-columns:1fr 1fr;gap:14px}.contactform .full{grid-column:1/-1}.contactform textarea{min-height:110px;resize:vertical}.contactform button{justify-self:start}
+    footer{background:#070b13;color:#c2cad7;padding:44px 0 20px}.footergrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}.footerbrand{font-family:'Playfair Display',Georgia,serif;color:#fff;font-size:22px}.footerbrand span{color:var(--gold)}footer p,footer a{font-size:12px;line-height:1.9;color:#aab4c4}footer h4{font-size:12px;color:#fff;text-transform:uppercase;letter-spacing:1px}footer a:hover{color:var(--gold)}.copyright{border-top:1px solid #ffffff1c;margin-top:30px;padding-top:18px;font-size:11px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .notice{display:none;padding:12px 14px;border-radius:6px;background:#eaf7ee;color:#175c2d;font-size:13px;margin-top:14px}.notice.show{display:block}.empty{grid-column:1/-1;padding:28px;border:1px dashed #cbd3df;border-radius:10px;color:var(--muted);text-align:center}
+    @media(max-width:950px){.navlinks{gap:14px}.searchgrid{grid-template-columns:repeat(2,1fr)}.searchbtn{width:100%}.servicegrid{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:repeat(2,1fr)}.featuregrid{gap:30px}.contactgrid{grid-template-columns:1fr}}
+    @media(max-width:700px){.topinner{justify-content:center}.nav{height:72px}.brand img{width:50px;height:50px}.brandtext strong{font-size:13px}.brandtext span{font-size:8px}.menu{display:block}.navlinks{display:none;position:absolute;top:72px;left:0;right:0;padding:18px 4%;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 12px 20px #10182712;flex-direction:column;align-items:stretch}.navlinks.open{display:flex}.navlinks a{padding:8px 0}.navcta{text-align:center}.hero{min-height:560px}.hero-content{padding:65px 0}.hero p{font-size:14px}.trustrow{gap:18px}.searchwrap{margin-top:-20px}.searchbox{padding:16px}.searchgrid{grid-template-columns:1fr 1fr}.searchgrid .field:first-child{grid-column:1/-1}.searchbtn{grid-column:1/-1}section{padding:65px 0}.sectionhead{align-items:start;flex-direction:column}.cards{grid-template-columns:1fr}.propimg{height:235px}.servicegrid{grid-template-columns:1fr 1fr;gap:10px}.service{padding:18px 14px}.featuregrid{grid-template-columns:1fr}.featurephoto{min-height:270px;order:2}.checklist{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.ctabox{padding:28px;align-items:start;flex-direction:column}.contactform{grid-template-columns:1fr}.contactform .full{grid-column:auto}.footergrid{grid-template-columns:1fr}.copyright{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container topinner"><span>Real Estate • Construction • Property Advisory</span><span>Contact: <a href="mailto:balaji.construction81@gmail.com">balaji.construction81@gmail.com</a></span></div></div>
+  <header><div class="container nav">
+    <a class="brand" href="#home" aria-label="Balaji Construction & Properties home"><img src="assets/balaji-logo.png" alt="Balaji Construction & Properties logo"><div class="brandtext"><strong>BALAJI</strong><span>CONSTRUCTION & PROPERTIES</span></div></a>
+    <button class="menu" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">☰ Menu</button>
+    <nav class="navlinks" id="navlinks"><a href="#home">Home</a><a href="#properties">Properties</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact" class="navcta">Enquire Now ↗</a></nav>
+  </div></header>
+  <main>
+    <section class="hero" id="home"><div class="container"><div class="hero-content">
+      <span class="eyebrow">Find your place. Build your future.</span>
+      <h1>Your Dream.<br><em>Our Priority.</em></h1>
+      <p>Discover the right property and bring your construction vision to life. Explore land, homes, commercial spaces and professional construction services with Balaji.</p>
+      <div class="actions"><a class="btn btn-gold" href="#properties">Explore Properties ↗</a><a class="btn btn-outline" href="#contact">Discuss a Project</a></div>
+      <div class="trustrow"><div><b>Buy</b>Find your property</div><div><b>Sell</b>List your property</div><div><b>Build</b>Plan your project</div></div>
+    </div></div></section>
+    <div class="container searchwrap"><form class="searchbox" id="searchForm"><div class="searchtitle">Find a property that fits your plans</div><div class="searchgrid">
+      <div class="field"><label for="keyword">Keyword / Location</label><input id="keyword" placeholder="e.g. Siwan, Patna, plot"></div>
+      <div class="field"><label for="ptype">Property type</label><select id="ptype"><option value="">All types</option><option>Land / Plot</option><option>House / Villa</option><option>Flat / Apartment</option><option>Shop / Office</option><option>Commercial Land</option></select></div>
+      <div class="field"><label for="purpose">Purpose</label><select id="purpose"><option value="">Buy, rent or all</option><option>For Sale</option><option>For Rent</option></select></div>
+      <div class="field"><label for="budget">Maximum budget</label><select id="budget"><option value="">Any budget</option><option value="1000000">Up to ₹10 lakh</option><option value="2500000">Up to ₹25 lakh</option><option value="5000000">Up to ₹50 lakh</option><option value="10000000">Up to ₹1 crore</option></select></div>
+      <button class="searchbtn" type="submit">Search ↗</button>
+    </div></form></div>
+    <section id="properties"><div class="container"><div class="sectionhead"><div><span class="eyebrow">Selected opportunities</span><h2>Featured Properties</h2></div><p>Explore sample listings and discover what works for your next move. Listing details can be updated from the website files.</p></div><div class="cards" id="propertyCards"></div><p style="font-size:12px;color:#7a8493;margin-top:18px">Owner / Managed by: <strong style="color:#172033">Shivam Tiwari</strong>. Demo listings are sample data; replace them with verified properties.</p></div></section>
+    <section class="services" id="services"><div class="container"><div class="sectionhead"><div><span class="eyebrow">What we do</span><h2>Property & Construction Services</h2></div><p>From choosing the right location to creating a space from the ground up, find the support you need in one place.</p></div>
+      <div class="servicegrid">
+        <article class="service"><div class="serviceicon">⌂</div><h3>Buy Property</h3><p>Explore land, residential homes, apartments and commercial spaces.</p></article>
+        <article class="service"><div class="serviceicon">↗</div><h3>Sell Property</h3><p>Share your property details for a listing review and buyer enquiries.</p></article>
+        <article class="service"><div class="serviceicon">⌑</div><h3>Rentals</h3><p>Find rental options for homes, shops, offices and other spaces.</p></article>
+        <article class="service"><div class="serviceicon">▦</div><h3>House Construction</h3><p>Residential construction planning, execution and project coordination.</p></article>
+        <article class="service"><div class="serviceicon">▤</div><h3>Commercial Buildings</h3><p>Construction support for shops, offices and commercial properties.</p></article>
+        <article class="service"><div class="serviceicon">⌘</div><h3>Renovation</h3><p>Upgrade existing spaces with practical renovation solutions.</p></article>
+        <article class="service"><div class="serviceicon">◫</div><h3>Project Gallery</h3><p>Showcase completed work, current projects and property photography.</p></article>
+        <article class="service"><div class="serviceicon">◎</div><h3>Property Enquiry</h3><p>Request more information or arrange a property visit.</p></article>
+      </div>
+    </div></section>
+    <section class="featureband" id="about"><div class="container featuregrid"><div><span class="eyebrow">Built on trust</span><h2>Better spaces begin with the right partner.</h2><p>Balaji Construction & Properties brings property discovery and construction services together. Our goal is to make your next step clearer—whether you are looking for land, a home, a commercial space or help planning a build.</p><div class="checklist"><div class="check">Clear property information</div><div class="check">Construction project support</div><div class="check">Enquiry-led service</div><div class="check">Listings across India</div></div><a class="btn btn-gold" href="#contact">Talk to Our Team ↗</a></div><div class="featurephoto" role="img" aria-label="Modern residential architecture"></div></div></section>
+    <section id="projects"><div class="container"><div class="sectionhead"><div><span class="eyebrow">Our work</span><h2>Projects & Expertise</h2></div><p>Use this section to present your completed buildings, current construction sites and design portfolio.</p></div><div class="steps"><article class="step"><div class="stepnum">01</div><h3>Residential Projects</h3><p>Independent homes, villas and residential construction work tailored to each project.</p></article><article class="step"><div class="stepnum">02</div><h3>Commercial Projects</h3><p>Shops, offices and commercial building projects with clear planning and coordination.</p></article><article class="step"><div class="stepnum">03</div><h3>Land & Property</h3><p>Property opportunities for buyers, sellers, investors and rental customers.</p></article></div></div></section>
+    <section class="cta"><div class="container"><div class="ctabox"><div><h2>Have a property or project in mind?</h2><p>Tell us what you are looking for. We’ll help you take the next step.</p></div><a href="#contact" class="btn btn-gold">Send an Enquiry ↗</a></div></div></section>
+    <section id="contact"><div class="container"><div class="sectionhead"><div><span class="eyebrow">Let's connect</span><h2>Start a Conversation</h2></div><p>Share a few details about your property search or construction project.</p></div><div class="contactgrid"><aside class="contactinfo"><h3>Balaji Construction & Properties</h3><p>Your Dream, Our Priority. Connect with us for property enquiries and construction projects.</p><div class="contactline"><small>Email</small><a href="mailto:balaji.construction81@gmail.com">balaji.construction81@gmail.com</a></div><div class="contactline"><small>Instagram</small><a href="https://www.instagram.com/balaji_construction81/" target="_blank" rel="noopener">balaji_construction81 ↗</a></div><div class="contactline"><small>Instagram</small><a href="https://www.instagram.com/real.estate_siwan/" target="_blank" rel="noopener">real.estate_siwan ↗</a></div><div class="contactline"><small>Service Area</small><span>Across India</span></div></aside>
+      <form class="contactform" id="contactForm">
+        <div class="field"><label for="name">Full name</label><input id="name" required placeholder="Your name"></div>
+        <div class="field"><label for="email">Email / Phone</label><input id="email" required placeholder="How can we reach you?"></div>
+        <div class="field"><label for="interest">I'm interested in</label><select id="interest" required><option value="">Choose a service</option><option>Buying property</option><option>Selling property</option><option>Renting property</option><option>Construction</option><option>Other enquiry</option></select></div>
+        <div class="field"><label for="city">City / State</label><input id="city" placeholder="e.g. Siwan, Bihar"></div>
+        <div class="field full"><label for="message">Your message</label><textarea id="message" required placeholder="Tell us about the property or project..."></textarea></div>
+        <div class="full"><button class="btn btn-gold" type="submit">Prepare Email Enquiry ↗</button><div class="notice" id="formNotice">Your email draft is ready in your email app. Please review and send it.</div></div>
+      </form>
+    </div></div></section>
+  </main>
+  <footer><div class="container"><div class="footergrid"><div><div class="footerbrand">BALAJI <span>CONSTRUCTION & PROPERTIES</span></div><p>Owner / Manager: Shivam Tiwari</p><p><a href="admin.html">Website Admin / Edit Listings</a></p><p>Property discovery and construction services.<br>Your Dream, Our Priority.</p></div><div><h4>Explore</h4><p><a href="#properties">Featured Properties</a><br><a href="#services">Our Services</a><br><a href="#projects">Projects</a><br><a href="#about">About Us</a></p></div><div><h4>Contact</h4><p><a href="mailto:balaji.construction81@gmail.com">balaji.construction81@gmail.com</a><br><a href="https://www.instagram.com/balaji_construction81/" target="_blank" rel="noopener">Instagram: balaji_construction81</a><br><a href="https://www.instagram.com/real.estate_siwan/" target="_blank" rel="noopener">Instagram: real.estate_siwan</a></p></div></div><div class="copyright"><span>© <span id="year"></span> Balaji Construction & Properties. All rights reserved.</span><span>Designed for clarity. Built for your next move.</span></div></div></footer>
+<script>
+  const sampleProperties = [
+    {id:1,title:"Residential Plot Opportunity",location:"Siwan, Bihar",type:"Land / Plot",purpose:"For Sale",price:850000,priceText:"₹8.5 Lakh",area:"1,200 sq.ft.",beds:"Plot",image:"https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80",tag:"Sample Listing"},
+    {id:2,title:"Contemporary Family Home",location:"Patna, Bihar",type:"House / Villa",purpose:"For Sale",price:4800000,priceText:"₹48 Lakh",area:"1,650 sq.ft.",beds:"3 BHK",image:"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",tag:"Featured"},
+    {id:3,title:"Commercial Shop Space",location:"Gorakhpur, Uttar Pradesh",type:"Shop / Office",purpose:"For Rent",price:18000,priceText:"₹18,000 / month",area:"450 sq.ft.",beds:"Commercial",image:"https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",tag:"Rental"}
+  ];
+  let properties = sampleProperties;
+  try { const saved=JSON.parse(localStorage.getItem('balajiProperties')||'null'); if(Array.isArray(saved)) properties=saved; } catch(e) {}
+  const cards = document.getElementById('propertyCards');
+  function render(list){
+    cards.innerHTML = '';
+    if(!list.length){cards.innerHTML='<div class="empty">No sample properties match these filters. Try changing your search.</div>';return;}
+    list.forEach(p=>{
+      const article=document.createElement('article');article.className='property';
+      article.innerHTML=`<div class="propimg"><img src="${p.image}" alt="${p.title}" loading="lazy"><span class="badge ${p.tag==='Featured'?'gold':''}">${p.tag}</span><span class="price">${p.priceText}</span></div><div class="propbody"><h3>${p.title}</h3><div class="location">⌖ ${p.location}</div><div class="propmeta"><span><b>${p.area}</b><br>Area</span><span><b>${p.type}</b><br>Type</span><span><b>${p.purpose}</b><br>Purpose</span></div></div>`;
+      cards.appendChild(article);
+    });
+  }
+  render(properties);
+  document.getElementById('searchForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    const q=document.getElementById('keyword').value.trim().toLowerCase();
+    const type=document.getElementById('ptype').value;
+    const purpose=document.getElementById('purpose').value;
+    const budget=document.getElementById('budget').value;
+    render(properties.filter(p=>(!q||(p.location+' '+p.title+' '+p.type).toLowerCase().includes(q))&&(!type||p.type===type)&&(!purpose||p.purpose===purpose)&&(!budget||p.price<=Number(budget))));
+    document.getElementById('properties').scrollIntoView({behavior:'smooth'});
+  });
+  document.getElementById('menuBtn').addEventListener('click',()=>{
+    const nav=document.getElementById('navlinks');
+    const btn=document.getElementById('menuBtn');
+    const isOpen=nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', String(isOpen));
+    btn.textContent=isOpen?'✕ Close':'☰ Menu';
+  });
+  document.querySelectorAll('#navlinks a').forEach(a=>a.addEventListener('click',()=>{
+    document.getElementById('navlinks').classList.remove('open');
+    document.getElementById('menuBtn').setAttribute('aria-expanded','false');
+    document.getElementById('menuBtn').textContent='☰ Menu';
+  }));
+  document.getElementById('year').textContent=new Date().getFullYear();
+  document.getElementById('contactForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    const name=document.getElementById('name').value.trim(), email=document.getElementById('email').value.trim(), interest=document.getElementById('interest').value, city=document.getElementById('city').value.trim(), message=document.getElementById('message').value.trim();
+    const subject=encodeURIComponent('Website enquiry: '+interest);
+    const body=encodeURIComponent('Name: '+name+'\nEmail / Phone: '+email+'\nInterest: '+interest+'\nCity / State: '+city+'\n\nMessage:\n'+message);
+    document.getElementById('formNotice').classList.add('show');
+    window.location.href='mailto:balaji.construction81@gmail.com?subject='+subject+'&body='+body;
+  });
+</script>
+</body>
+</html>
